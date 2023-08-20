@@ -1,5 +1,5 @@
 ﻿// Create an empty Queue that holds strings
-Queue<string> myQ = new Queue<string>();
+Queue<string> myQ = new();
 
 // Add items to the end of the queue
 myQ.Enqueue("one");

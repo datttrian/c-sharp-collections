@@ -1,5 +1,5 @@
 ﻿// TODO: Create an empty stack
-Stack<string> myStack = new Stack<string>();
+Stack<string> myStack = new();
 
 // TODO: The Push function pushes new elements onto the stack
 myStack.Push("one");
