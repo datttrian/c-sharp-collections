@@ -7,7 +7,7 @@
                                 "George Carlin", "Lenny Bruce",
                                 "Eddie Murphy", "Louie Anderson"};
         // TODO: Create the list
-        List<string> strList = new List<string>(10);
+        List<string> strList = new(10);
 
         // TODO: Add some elements to the list from an existing array
         strList.AddRange(comedians);
@@ -37,20 +37,25 @@
         // ** Searching List Content **/
 
         // TODO: Determine if a list contains a given item
-
+        Console.WriteLine(strList.Contains("Ron Gallagher"));
 
         // TODO: The Exists function gives us a more customizable way to search
         // by using a predicate function to examine each element in the list
-
+        bool found = strList.Exists(x => x.Length > 15);
+        Console.WriteLine($"Item found: {found}");
 
         // TODO: Use the Find function to search through items
-
+        string item = "";
+        item = strList.Find(x => x.StartsWith("L"));
+        Console.WriteLine($"Item: {item}");
 
         // TODO: The FindAll function can find multiple items
-
+        List<string> itemList = strList.FindAll(x => x.StartsWith("L"));
+        PrintList(itemList);
 
         // TODO: Use TrueForAll to see if a given condition is true for all elements
-
+        bool result = strList.TrueForAll(x => x.Length > 10);
+        Console.WriteLine($"Result: {result}");
     }
 
     static void PrintList(List<string> theList)
