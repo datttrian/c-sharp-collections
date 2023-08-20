@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridDictExample", "Ch3_Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderedDictExample", "Ch3_Specialized\OrderedDictExample\OrderedDictExample.csproj", "{F2E4A90E-CD1A-4474-BF70-29EE7C270DE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCollection", "Ch3_Specialized\StringCollection\StringCollection.csproj", "{D263A2E7-1D5A-4F86-AE65-FA9622A13253}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{F2E4A90E-CD1A-4474-BF70-29EE7C270DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E4A90E-CD1A-4474-BF70-29EE7C270DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E4A90E-CD1A-4474-BF70-29EE7C270DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D263A2E7-1D5A-4F86-AE65-FA9622A13253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D263A2E7-1D5A-4F86-AE65-FA9622A13253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D263A2E7-1D5A-4F86-AE65-FA9622A13253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D263A2E7-1D5A-4F86-AE65-FA9622A13253}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +80,6 @@ Global
 		{A6A72D62-D5D8-4853-96A2-6A6E8FB331B4} = {4D3C7074-80D1-472A-A46A-00B5582888B4}
 		{2A8C6A7B-3EED-49F0-87AA-3501B6C11FE2} = {82DC0291-030B-45BB-96E7-07FD0BFF605F}
 		{F2E4A90E-CD1A-4474-BF70-29EE7C270DE9} = {82DC0291-030B-45BB-96E7-07FD0BFF605F}
+		{D263A2E7-1D5A-4F86-AE65-FA9622A13253} = {82DC0291-030B-45BB-96E7-07FD0BFF605F}
 	EndGlobalSection
 EndGlobal
